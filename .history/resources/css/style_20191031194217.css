@@ -1,0 +1,111 @@
+/* ---------BASIC SETUP---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #9d9fa0;
+    font-family: "Lora", Arial, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+
+/* ---------REAUSABLE COMPONENTS---------- */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ---------HEADINGS---------- */
+h1 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 505px;
+    height: 162px;
+
+}
+
+/* ---------HEADER---------- */
+header {
+    background-image:  url(img/home_lifestyle_blog_sectionbg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-logo-box {
+    width: 1140px;
+}
+
+.logo {
+    height: 36px;
+    width: auto;
+    margin-top: 30px;
+    float: left;
+
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.main-nav li {
+    display: inline-block;
+    font-size: 138%;
+    padding: 0 20px;
+
+}
+
+ul li:first-child:link,
+ul li:first-child:visited {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+ul li:first-child :hover,
+ul li:first-child :active {
+    display: none;
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #C6CAD0;
+    text-decoration: none;
+}
+
+.main-nav li:hover,
+.main-nav li:active {
+    color: #ffffff;
+}
+
+ul li:first-child:link,
+ul li:first-child:visited {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+ul li:first-child :hover,
+ul li:first-child :active {
+    display: none;
+
+}
+
+ul li:last-child:link,
+ul li:last-child:visited {
+    color: #f3c070;
+    display: none;
+}
+
+ul li:last-child:hover,
+ul li:last-child:active {
+    display: none;
+}

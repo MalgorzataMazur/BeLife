@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #9d9fa0;
+    font-family: "Lora", Arial, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header {
+    background-image:  url(img/home_lifestyle_blog_sectionbg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-logo-box {
+    width: 1140px;
+
+
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
